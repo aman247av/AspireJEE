@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1086628502497",
+    "project_id": "aspirejee24",
+    "storage_bucket": "aspirejee24.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1086628502497:android:d01e6559105bf77d8b10a0",
+        "android_client_info": {
+          "package_name": "com.jee00.aspirejee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1086628502497-ia1t5v3p796fi731i25479bqvvtt6ao7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOx86l9GfQSiFDYlRtyzQ8ZHH_ulQPiC0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1086628502497-ia1t5v3p796fi731i25479bqvvtt6ao7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

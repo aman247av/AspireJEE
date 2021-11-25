@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">AspireJEE</string>
+    <string name="limits_continuity_amp_differentiability">
+<![CDATA[ LIMITS, CONTINUITY & DIFFERENTIABILITY ]]>
+</string>
+    <string name="complex_numbers">COMPLEX NUMBERS</string>
+    <string name="inverse_trigonometric_functions">INVERSE TRIGONOMETRIC FUNCTIONS</string>
+    <string name="permutations_amp_combinations">
+<![CDATA[ PERMUTATIONS & COMBINATIONS ]]>
+</string>
+    <string name="binomial_theorem">BINOMIAL THEOREM</string>
+    <string name="vectors_amp_3d_geometry">
+<![CDATA[ VECTORS & 3D GEOMETRY ]]>
+</string>
+    <string name="differential_equations">DIFFERENTIAL EQUATIONS</string>
+    <string name="conic_sections">CONIC SECTIONS</string>
+    <string name="straight_lines">STRAIGHT LINES</string>
+    <string name="definite_integrals">DEFINITE INTEGRALS</string>
+    <string name="circle">CIRCLE</string>
+    <string name="solutions_of_triangle">SOLUTIONS OF TRIANGLE</string>
+    <string name="indefinite_integrals">INDEFINITE INTEGRALS</string>
+    <string name="applications_of_derivatives">APPLICATIONS OF DERIVATIVES</string>
+    <string name="relations_amp_functions">
+<![CDATA[ RELATIONS & FUNCTIONS ]]>
+</string>
+    <string name="sequences_amp_series">
+<![CDATA[ SEQUENCES & SERIES ]]>
+</string>
+    <string name="quadratic_equations">QUADRATIC EQUATIONS</string>
+    <string name="trigonometry">TRIGONOMETRY</string>
+    <string name="mathematical_reasoning">MATHEMATICAL REASONING</string>
+    <string name="probability">PROBABILITY</string>
+    <string name="matrices_amp_determinants">
+<![CDATA[ MATRICES & DETERMINANTS ]]>
+</string>
+    <string name="statistics">STATISTICS</string>
+
+</resources>

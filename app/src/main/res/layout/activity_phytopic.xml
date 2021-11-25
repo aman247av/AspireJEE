@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    android:orientation="vertical"
+    tools:context=".phytopic">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/ud"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0dp"
+                android:drawableLeft="@drawable/ud"
+                android:fontFamily="@font/choco"
+                android:text="UNITS &amp; DIMENSIONS"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:backgroundTint="#D6D6D6" />
+
+            <Button
+                android:id="@+id/motion"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0dp"
+                android:drawableLeft="@drawable/motion"
+                android:text="MOTION"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:fontFamily="@font/choco"
+                app:backgroundTint="#D6D6D6" />
+
+            <Button
+                android:id="@+id/lawofmotion"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0dp"
+                android:drawableLeft="@drawable/force"
+                android:paddingLeft="20dip"
+                android:paddingRight="10dip"
+                android:text="LAW OF MOTION"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:fontFamily="@font/choco"
+                app:backgroundTint="#D6D6D6" />
+
+            <Button
+                android:id="@+id/wpe"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0dp"
+                android:drawableLeft="@drawable/currrr"
+                android:paddingLeft="10dip"
+                android:text="  WORK, POWER &amp; ENRGY"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:fontFamily="@font/choco"
+                app:backgroundTint="#D6D6D6" />
+
+            <Button
+                android:id="@+id/shm"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0dp"
+                android:drawableLeft="@drawable/shm"
+                android:paddingLeft="31dip"
+                android:text="SIMPLE HARMONIC MOTION"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:fontFamily="@font/choco"
+                app:backgroundTint="#D6D6D6" />
+
+            <Button
+                android:id="@+id/impulse"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0dp"
+                android:drawableLeft="@drawable/implse"
+                android:paddingLeft="34dip"
+                android:paddingRight="10dip"
+                android:text="IMPULSE  &amp; MOMENTUM"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                 android:textSize="20sp"
+                android:fontFamily="@font/choco"
+                 
+                app:backgroundTint="#D6D6D6" />
+
+            <Button
+                android:id="@+id/rbd"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0dp"
+                android:drawableLeft="@drawable/rbd"
+                android:paddingLeft="36dp"
+                android:paddingRight="10dp"
+                android:text="ROTATIONAL MOTION"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                 android:textSize="20sp"
+                android:fontFamily="@font/choco"
+                 
+                app:backgroundTint="#D6D6D6" />
+
+            <Button
+                android:id="@+id/gravity"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0dp"
+                android:drawableLeft="@drawable/gra"
+                android:paddingLeft="34dp"
+                android:paddingRight="10dip"
+                android:text="GRAVITATION"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                 android:textSize="20sp"
+                android:fontFamily="@font/choco"
+                 
+                app:backgroundTint="#D6D6D6" />
+
+            <Button
+                android:id="@+id/electro"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0dp"
+                android:drawableLeft="@drawable/elecstst"
+                android:paddingLeft="20dip"
+                android:paddingRight="10dip"
+                android:text="ELECTROSTATICS"
+                android:textColor="@color/black"
+                 android:textSize="20sp"
+                android:fontFamily="@font/choco"
+                 
+                android:textAlignment="center"
+                app:backgroundTint="#D6D6D6" />
+
+            <Button
+                android:id="@+id/pom"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0dp"
+                android:drawableLeft="@drawable/fluid"
+                android:fontFamily="@font/choco"
+                 
+                android:paddingLeft="34dip"
+                android:paddingRight="10dip"
+                android:text="PROPERTIES OF MATTER"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                 android:textSize="20sp"
+                app:backgroundTint="#D6D6D6" />
+
+            <Button
+                android:id="@+id/i"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0dp"
+                android:drawableLeft="@drawable/curr"
+                android:text="CURRENT ELECTRICITY"
+                android:paddingLeft="14dip"
+                android:paddingRight="10dip"
+                 android:textSize="20sp"
+                android:fontFamily="@font/choco"
+                 
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                app:backgroundTint="#D6D6D6" />
+
+            <Button
+                android:id="@+id/heat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0dp"
+                android:drawableLeft="@drawable/thermo"
+                android:text="HEAT  &amp; THERMODYNAMICS"
+                android:paddingLeft="20dip"
+                android:paddingRight="10dip"
+                 android:textSize="20sp"
+                android:fontFamily="@font/choco"
+                 
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                app:backgroundTint="#D6D6D6" />
+
+            <Button
+                android:id="@+id/magnet"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0dp"
+                android:drawableLeft="@drawable/magn"
+                android:text="MAGNETISM"
+                android:paddingLeft="9dip"
+                android:paddingRight="10dip"
+                 android:textSize="20sp"
+                android:fontFamily="@font/choco"
+                 
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                app:backgroundTint="#D6D6D6" />
+
+            <Button
+                android:id="@+id/wave"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0dp"
+                android:drawableLeft="@drawable/wave"
+                android:text="WAVES"
+                android:paddingLeft="20dip"
+                android:paddingRight="10dip"
+                 android:textSize="20sp"
+                android:fontFamily="@font/choco"
+                 
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                app:backgroundTint="#D6D6D6" />
+            <Button
+                android:id="@+id/ac"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                android:layout_marginRight="10dp"
+                android:text="ALTERNATING CURRENT &amp; EMI"
+                android:drawableLeft="@drawable/ac"
+                android:paddingLeft="36dp"
+                android:paddingRight="10dip"
+                 android:textSize="20sp"
+                android:fontFamily="@font/choco"
+                 
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                app:backgroundTint="#D6D6D6" />
+            <Button
+                android:id="@+id/optics"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                android:layout_marginRight="10dp"
+                android:text="RAY &amp; WAVE OPTICS"
+                android:paddingLeft="36dip"
+                android:paddingRight="10dip"
+                 android:textSize="20sp"
+                android:fontFamily="@font/choco"
+                 
+                android:textAlignment="center"
+                android:drawableLeft="@drawable/ray"
+                android:textColor="@color/black"
+                app:backgroundTint="#D6D6D6" />
+
+            <Button
+                android:id="@+id/radioo"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                android:layout_marginRight="10dp"
+                android:text="RADIOACTIVITY"
+                android:paddingLeft="34dip"
+                android:paddingRight="10dip"
+                android:drawableLeft="@drawable/radio"
+                android:textColor="@color/black"
+                 android:textSize="20sp"
+                android:fontFamily="@font/choco"
+                 
+                android:textAlignment="center"
+                app:backgroundTint="#D6D6D6" />
+
+            <Button
+                android:id="@+id/atomic"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                android:layout_marginRight="10dp"
+                android:text="ATOM &amp; NUCLEI"
+                android:paddingLeft="36dip"
+                android:paddingRight="10dip"
+                android:drawableLeft="@drawable/atom"
+                android:textColor="@color/black"
+                 android:textSize="20sp"
+                android:fontFamily="@font/choco"
+                 
+                android:textAlignment="center"
+                app:backgroundTint="#D6D6D6" />
+            <Button
+                android:id="@+id/elecdev"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                android:layout_marginRight="10dp"
+                android:text="ELECTRONIC DEVICES"
+                android:paddingLeft="38dip"
+                android:paddingRight="10dip"
+                 android:textSize="20sp"
+                android:fontFamily="@font/choco"
+                 
+                android:textAlignment="center"
+                android:drawableLeft="@drawable/sc"
+                android:textColor="@color/black"
+                app:backgroundTint="#D6D6D6" />
+            <Button
+                android:id="@+id/communi"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                android:layout_marginRight="10dp"
+                android:text="COMMUNICATION"
+                android:paddingLeft="28dip"
+                android:paddingRight="10dip"
+                 android:textSize="20sp"
+                android:fontFamily="@font/choco"
+                 
+                android:textAlignment="center"
+                android:drawableLeft="@drawable/comm"
+                android:textColor="@color/black"
+                app:backgroundTint="#D6D6D6" />
+            <Button
+                android:id="@+id/practical"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                android:layout_marginRight="10dp"
+                android:text="PRACTICAL PHYSICS"
+                android:paddingLeft="40dip"
+                android:paddingRight="10dip"
+                 android:textSize="20sp"
+                android:fontFamily="@font/choco"
+                 
+                android:textAlignment="center"
+                android:drawableLeft="@drawable/prac"
+                android:textColor="@color/black"
+                app:backgroundTint="#D6D6D6" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

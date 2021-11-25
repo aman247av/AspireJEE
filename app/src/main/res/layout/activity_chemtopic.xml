@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    android:orientation="vertical"
+    tools:context=".chemtopic">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/basicconcept"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0dp"
+                android:drawableLeft="@drawable/basic"
+                android:fontFamily="@font/choco"
+                android:textSize="20sp"
+                android:text="BASIC CONCEPTS OF CHEMISTRY"
+                android:textColor="@color/black"
+                app:backgroundTint="#D6D6D6" />
+
+            <Button
+                android:id="@+id/atomicstruct"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0dp"
+                android:drawableLeft="@drawable/atomic"
+                android:fontFamily="@font/choco"
+                android:text="ATOMIC STRUCTURE"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:backgroundTint="#D6D6D6" />
+
+            <Button
+                android:id="@+id/periodictable"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0dp"
+                android:drawableLeft="@drawable/pt"
+                android:fontFamily="@font/choco"
+                android:text="PERIODIC TABLE"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:backgroundTint="#D6D6D6" />
+
+            <Button
+                android:id="@+id/chembond"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0dp"
+                android:drawableLeft="@drawable/chembond"
+                android:fontFamily="@font/choco"
+                android:text="CHEMICAL BONDING"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:backgroundTint="#D6D6D6" />
+
+
+            <Button
+                android:id="@+id/gaseoustate"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0dp"
+                android:drawableLeft="@drawable/gas2"
+                android:fontFamily="@font/choco"
+                android:text="GASEOUS STATE"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:backgroundTint="#D6D6D6" />
+
+            <Button
+                android:id="@+id/redoxrxn"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0dp"
+                android:drawableLeft="@drawable/redox"
+                android:text="REDOX REACTION"
+                android:fontFamily="@font/choco"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                app:backgroundTint="#D6D6D6" />
+
+            <Button
+                android:id="@+id/surfaceChem"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0dp"
+                android:drawableLeft="@drawable/surf"
+                android:fontFamily="@font/choco"
+                android:textSize="20sp"
+                android:text="SURFACE CHEMISTRY"
+                android:paddingLeft="30dp"
+                android:textColor="@color/black"
+                app:backgroundTint="#D6D6D6" />
+
+            <Button
+                android:id="@+id/thermo"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0dp"
+                android:drawableLeft="@drawable/thermo"
+                android:fontFamily="@font/choco"
+                android:textSize="20sp"
+                android:text="THERMODYNAMICS"
+                android:textColor="@color/black"
+                app:backgroundTint="#D6D6D6" />
+
+            <Button
+                android:id="@+id/equilibrium"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0dp"
+                android:drawableLeft="@drawable/equi"
+                android:fontFamily="@font/choco"
+                android:textSize="20sp"
+                android:text="CHEMICAL EQUILIBRIUM"
+                android:textColor="@color/black"
+                app:backgroundTint="#D6D6D6" />
+
+            <Button
+                android:id="@+id/sblock"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0dp"
+                android:drawableLeft="@drawable/pt"
+                android:fontFamily="@font/choco"
+                android:textSize="20sp"
+                android:text="S-BLOCK ELEMENTS"
+                android:textColor="@color/black"
+                app:backgroundTint="#D6D6D6" />
+
+            <Button
+                android:id="@+id/basicOrganicChem"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0dp"
+                android:drawableLeft="@drawable/basicorg"
+                android:fontFamily="@font/choco"
+                android:text="BASICS OF ORGANIC CHEMISTRY"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                app:backgroundTint="#D6D6D6" />
+
+            <Button
+                android:id="@+id/hydrocarbons"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0dp"
+                android:fontFamily="@font/choco"
+                android:textSize="20sp"
+                android:drawableLeft="@drawable/hc"
+                android:text="HYDROCARBONS"
+                android:textColor="@color/black"
+                app:backgroundTint="#D6D6D6" />
+
+            <Button
+                android:id="@+id/solidStateSC"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0dp"
+                android:fontFamily="@font/choco"
+                android:textSize="20sp"
+                android:drawableLeft="@drawable/solidstate"
+                android:text="SOLID STATE"
+                android:textColor="@color/black"
+                android:paddingLeft="25dp"
+                app:backgroundTint="#D6D6D6" />
+            <Button
+                android:id="@+id/solutions"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0dp"
+                android:text="SOLUTION"
+                android:fontFamily="@font/choco"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                app:backgroundTint="#D6D6D6"
+            android:drawableLeft="@drawable/solu"/>
+            <Button
+                android:id="@+id/electrochem"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0dp"
+                android:fontFamily="@font/choco"
+                android:textSize="20sp"
+                android:text="ELECTROCHEMISTRY"
+                android:textColor="@color/black"
+                app:backgroundTint="#D6D6D6"
+                android:drawableLeft="@drawable/elec"/>
+            <Button
+                android:id="@+id/chemkinetic"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0dp"
+                android:fontFamily="@font/choco"
+                android:textSize="20sp"
+                android:text="CHEMICAL KINETICS"
+                android:textColor="@color/black"
+                app:backgroundTint="#D6D6D6"
+            android:drawableLeft="@drawable/ck"/>
+            <Button
+                android:id="@+id/isolationOfelements"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0dp"
+                android:fontFamily="@font/choco"
+                android:textSize="20sp"
+                android:text="METALLURGY"
+                android:textColor="@color/black"
+                app:backgroundTint="#D6D6D6"
+                android:drawableLeft="@drawable/iso"/>
+            <Button
+                android:id="@+id/hydrogen"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0dp"
+                android:fontFamily="@font/choco"
+                android:text="HYDROGEN"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:paddingLeft="25dp"
+                app:backgroundTint="#D6D6D6"
+            android:drawableLeft="@drawable/h2"/>
+            <Button
+                android:id="@+id/pblock"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0dp"
+                android:fontFamily="@font/choco"
+                android:text="p-BLOCK ELEMENTS"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                app:backgroundTint="#D6D6D6"
+                android:drawableLeft="@drawable/pt"/>
+            <Button
+                android:id="@+id/d_fblock"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0dp"
+                android:fontFamily="@font/choco"
+                android:text="d&amp;f-BLOCK ELEMENTS"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                app:backgroundTint="#D6D6D6"
+            android:drawableLeft="@drawable/pt"/>
+            <Button
+                android:id="@+id/CoordinationComp"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0dp"
+                android:fontFamily="@font/choco"
+                android:text="ELECTROCHEMISTRY"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                app:backgroundTint="#D6D6D6"
+                android:drawableLeft="@drawable/cor"/>
+            <Button
+                android:id="@+id/Halo"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0dp"
+                android:text="HALOALKANES &amp; HALOARENES"
+                android:fontFamily="@font/choco"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                app:backgroundTint="#D6D6D6"
+            android:drawableLeft="@drawable/halo"/>
+            <Button
+                android:id="@+id/alcohol"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0dp"
+                android:fontFamily="@font/choco"
+                android:text="ALCOHOLS,PHENOLS &amp; CARBOXYLIC ACIDS"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                app:backgroundTint="#D6D6D6"
+                android:drawableLeft="@drawable/alco"/>
+            <Button
+                android:id="@+id/aldeh"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0dp"
+                android:fontFamily="@font/choco"
+                android:text="ALDEHYDES"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                app:backgroundTint="#D6D6D6"
+            android:drawableLeft="@drawable/alde"/>
+            <Button
+                android:id="@+id/nitro"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0dp"
+                app:backgroundTint="#D6D6D6"
+                android:fontFamily="@font/choco"
+                android:text="AMINES &amp; AMIDES"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:drawableLeft="@drawable/nitro"
+                />
+            <Button
+                android:id="@+id/polymers"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0dp"
+                android:fontFamily="@font/choco"
+                android:text="POLYMERS"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                app:backgroundTint="#D6D6D6"
+                android:drawableLeft="@drawable/poly"/>
+            <Button
+                android:id="@+id/bio"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0dp"
+                android:fontFamily="@font/choco"
+                android:text="BIOMOLECULES"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                app:backgroundTint="#D6D6D6"
+            android:drawableLeft="@drawable/asp"/>
+            <Button
+                android:id="@+id/chemevery"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0dp"
+                android:fontFamily="@font/choco"
+                android:text="CHEMISTRY IN EVERYDAY LIFE"
+                android:textColor="@color/black"
+                app:backgroundTint="#D6D6D6"
+                android:textSize="20sp"
+                android:drawableLeft="@drawable/cheme"/>
+
+            <Button
+                android:id="@+id/practicalOrg"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0dp"
+                android:drawableLeft="@drawable/prac1"
+                android:fontFamily="@font/choco"
+                android:text="PRACTICAL ORGANIC CHEMISTRY"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                app:backgroundTint="#D6D6D6" />
+
+            <Button
+                android:id="@+id/environchem"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0dp"
+                android:drawableLeft="@drawable/env"
+                android:fontFamily="@font/choco"
+                android:textSize="20sp"
+                android:text="ENVIRONMENTAL CHEMISTRY"
+                android:textColor="@color/black"
+                app:backgroundTint="#D6D6D6" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

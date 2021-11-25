@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    android:orientation="vertical"
+    tools:context=".mathtopic">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/trigo"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0dp"
+                android:drawableLeft="@drawable/trigo"
+                android:fontFamily="@font/choco"
+                android:text="@string/trigonometry"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                 
+                app:backgroundTint="#D6D6D6" />
+
+            <Button
+                android:id="@+id/matrix"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0dp"
+                android:drawableLeft="@drawable/mat"
+                android:fontFamily="@font/choco"
+                android:text="@string/matrices_amp_determinants"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                 
+                app:backgroundTint="#D6D6D6" />
+
+            <Button
+                android:id="@+id/quad"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0dp"
+                android:drawableLeft="@drawable/quad"
+                android:fontFamily="@font/choco"
+                android:text="@string/quadratic_equations"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                 
+                app:backgroundTint="#D6D6D6" />
+
+            <Button
+                android:id="@+id/series"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0dp"
+                android:drawableLeft="@drawable/series"
+                android:text="@string/sequences_amp_series"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:fontFamily="@font/choco"
+                 
+                app:backgroundTint="#D6D6D6" />
+
+            <Button
+                android:id="@+id/func"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0dp"
+                android:drawableLeft="@drawable/func"
+                android:text="@string/relations_amp_functions"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:fontFamily="@font/choco"
+                 
+                app:backgroundTint="#D6D6D6" />
+
+            <Button
+                android:id="@+id/itf"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0dp"
+                android:drawableLeft="@drawable/itf"
+                android:fontFamily="@font/choco"
+                android:text="@string/inverse_trigonometric_functions"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                 
+                app:backgroundTint="#D6D6D6" />
+
+            <Button
+                android:id="@+id/limit"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0dp"
+                android:drawableLeft="@drawable/lim"
+                android:text="@string/limits_continuity_amp_differentiability"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:fontFamily="@font/choco"
+                 
+                app:backgroundTint="#D6D6D6" />
+
+            <Button
+                android:id="@+id/aod"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0dp"
+                android:drawableLeft="@drawable/aod"
+                android:text="@string/applications_of_derivatives"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:fontFamily="@font/choco"
+                 
+                app:backgroundTint="#D6D6D6" />
+
+            <Button
+                android:id="@+id/indef"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0dp"
+                android:drawableLeft="@drawable/indif"
+                android:text="@string/indefinite_integrals"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:fontFamily="@font/choco"
+                 
+                app:backgroundTint="#D6D6D6" />
+
+            <Button
+                android:id="@+id/def"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0dp"
+                android:drawableLeft="@drawable/def"
+                android:textSize="20sp"
+                android:fontFamily="@font/choco"
+                                 android:text="@string/definite_integrals"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                app:backgroundTint="#D6D6D6" />
+
+            <Button
+                android:id="@+id/lines"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0dp"
+                android:drawableLeft="@drawable/line"
+                android:textSize="20sp"
+                android:fontFamily="@font/choco"
+                                 android:text="@string/straight_lines"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                app:backgroundTint="#D6D6D6" />
+
+            <Button
+                android:id="@+id/circle"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0dp"
+                android:drawableLeft="@drawable/circle"
+                android:textSize="20sp"
+                android:fontFamily="@font/choco"
+                                 android:text="@string/circle"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:paddingLeft="20dp"
+                app:backgroundTint="#D6D6D6" />
+
+            <Button
+                android:id="@+id/conic"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0dp"
+                android:drawableLeft="@drawable/ellip"
+                android:textSize="20sp"
+                android:fontFamily="@font/choco"
+                                 android:text="@string/conic_sections"
+                android:textAlignment="center"
+                android:paddingLeft="20dp"
+                android:textColor="@color/black"
+                app:backgroundTint="#D6D6D6" />
+
+            <Button
+                android:id="@+id/pc"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0dp"
+                android:drawableLeft="@drawable/pc"
+                android:textSize="20sp"
+                android:fontFamily="@font/choco"
+                                 android:text="@string/permutations_amp_combinations"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:paddingLeft="20dp"
+                app:backgroundTint="#D6D6D6" />
+
+            <Button
+                android:id="@+id/binomial"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0dp"
+                android:drawableLeft="@drawable/bino"
+                android:textSize="20sp"
+                android:fontFamily="@font/choco"
+                                 android:text="@string/binomial_theorem"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                app:backgroundTint="#D6D6D6" />
+
+            <Button
+                android:id="@+id/vector"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0dp"
+                android:drawableLeft="@drawable/vecttor"
+                android:textSize="20sp"
+                android:fontFamily="@font/choco"
+                                 android:text="@string/vectors_amp_3d_geometry"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                app:backgroundTint="#D6D6D6" />
+
+            <Button
+                android:id="@+id/diffeq"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0dp"
+                android:drawableLeft="@drawable/difeq"
+                android:textSize="20sp"
+                android:fontFamily="@font/choco"
+                                 android:paddingLeft="20dp"
+                android:text="@string/differential_equations"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                app:backgroundTint="#D6D6D6" />
+
+            <Button
+                android:id="@+id/complex"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0dp"
+                android:drawableLeft="@drawable/complex"
+                android:textSize="20sp"
+                android:fontFamily="@font/choco"
+                                 android:text="@string/complex_numbers"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:paddingLeft="10dp"
+                app:backgroundTint="#D6D6D6" />
+
+            <Button
+                android:id="@+id/sot"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0dp"
+                android:drawableLeft="@drawable/sot"
+                android:textSize="20sp"
+                android:fontFamily="@font/choco"
+                                 android:text="@string/solutions_of_triangle"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                app:backgroundTint="#D6D6D6" />
+
+            <Button
+                android:id="@+id/prob"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0dp"
+                android:drawableLeft="@drawable/prob"
+                android:textSize="20sp"
+                android:fontFamily="@font/choco"
+                                 android:text="@string/probability"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:paddingLeft="20dp"
+                app:backgroundTint="#D6D6D6" />
+
+            <Button
+                android:id="@+id/mathematical"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0dp"
+                android:drawableLeft="@drawable/reason"
+                android:textSize="20sp"
+                android:fontFamily="@font/choco"
+                android:text="@string/mathematical_reasoning"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:paddingLeft="20dp"
+                app:backgroundTint="#D6D6D6" />
+
+            <Button
+                android:id="@+id/stats"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0dp"
+                android:drawableLeft="@drawable/stats"
+                android:textSize="20sp"
+                android:fontFamily="@font/choco"
+                                 android:text="@string/statistics"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:paddingLeft="20dp"
+                app:backgroundTint="#D6D6D6" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
